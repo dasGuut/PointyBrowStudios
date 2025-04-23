@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+
+
+html 
+  {
+	height: 100%;
+	font-size: 14px;
+        }   
+img {
+	max-width: 30%;
+    display: block;
+	border-radius: 15%;
+        }
+
+        h1 {
+            font-size: 45px;
+            font-family: SST;
+            background-color: #143d59;
+            color: white;
+            border-radius: 15%;
+            text-align: center;
+                    }
+
+
+					p {
+						font-size: 45px;
+						font-family: SST;
+						background-color: #143d59;
+						color: white;
+						border-radius: 15%;
+						text-align: center;
+								}
+
+
+
+								h3 {
+									font-size: 45px;
+									font-family: SST;
+									background-color: transparent;
+									color: white;
+									border-radius: 15%;
+									text-align: center;
+											}
+
+
+
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+    background:#6b86e0;
+        }       
+
+
+     ul 
+        {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #c03310;
+          box-sizing: border-box;
+                }
+        
+        li {
+          float: left;
+                }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+             }
+        
+        li a:hover {
+          background-color: #fcfcfc;
+        }
+        
+    footer
+    {   
+		background-color:transparent;
+        clear: left;
+		display:table;
+        }
+                                                #watermark
+                                                    {
+                                                        position: fixed; bottom: 0; right: 0;
+                                                        opacity:0.4; font-weight:700;
+                                                            }
+
+					body {
+                        text-align: left;
+                        line-height: 2;
+                        padding: 1px;
+                        margin: 50px;
+                        box-sizing: border-box;
+                        background:#4056A1;
+                        background-image: url(PR_Flag.jpeg);
+                        background-repeat: repeat-x;
+                        animation: animatedBackground 10s ease-in alternate infinite;
+                        background-size: 90%;
+                        height: 100%;
+                        
+                            }
+                            
+                      @keyframes animatedBackground 
+                        {
+                          0% { background-position: 0 0; }
+                          50% { background-position: 50% 0; }
+                          100% { background-position: 0 0; }
+                             }
+        
+
+							 /*.img1{
+								max-width: 30%;
+								display: block;
+								border-radius: 15%;
+								width:"250";
+								height:"250";
+								vertical-align: ;
+									} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================
+	Tablet layout styles used by devices
+	481px to 768px and cascaded to larger 
+	devices.
+   =============================================
+
+
+
+@media only screen and (min-width: 481px) {
+html, body {
+	font-size: 16px;
+}
+
+body {
+	width: 89.9%;
+	padding-left: 1.55%;
+	padding-right: 1.55%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+header h1 {
+   font-size: 2.2em;
+}
+
+body article h1 {
+   font-size: 1.75em;
+}
+
+article {
+	width: 94%;
+	float: none;
+	margin: 0px auto;
+}
+dl#ct_locations {
+	width: 57%;
+	margin: 0px 0px 0px 20px;
+}
+dl {
+	width: 90%;
+    margin: 0 auto;
+	text-align: left;
+}
+article img {
+	float: right;
+	width: 40%;
+	margin: 0% 2% 2% 2%;
+}
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: thin solid rgba(127,96,17,1.00);
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+blockquote {
+  background: rgb(241, 241, 241);
+  border-left: 10px solid rgba(176,124,48,0.5);
+  quotes: "\201C""\201D""\201C""\2019";
+  	border-radius: 20%;
+	width: 40%;
+	margin: 1%;
+	float: left;
+	padding: 2%;
+}
+blockquote p:first-of-type:before {
+  color: rgba(176,124,48,0.50);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin: 0.2em 0.1em 0em 0.25em;
+  vertical-align: -0.4em;
+  float: left;
+}
+
+
+footer {
+	font-size: 0.9em;
+}
+}
+
+
+
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+
+
+@media only screen and (min-width: 769px) {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	background-color: rgba(176,124,48,1.00);
+	margin: 0px auto;
+}
+body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: white;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+                }
+
+
+            }
+ nav horizontal gation
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+}
+
+nav.horizontalNavigation a {
+    background-color: rgb(113, 86, 39);
+    font-family: Champagne, cursive;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    text-align: center;
+} */
+
