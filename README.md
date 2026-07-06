@@ -1,2 +1,2 @@
 # PointyBrowStudios
-This will act as a personal portfolio for web dev, game dev, voice acting, *and blog for ideas, current events?
+This will act as a personal portfolio and the start of Pointy Brow Studios featuring web dev, game dev, Voiceover & more
