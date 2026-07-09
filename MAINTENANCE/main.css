@@ -181,7 +181,7 @@ body {
     text-transform: capitalize;
 }
 
-/*#demo-modal .close {      /*adjusted bg color for close button*/
+#demo-modal .close {      /*adjusted bg color for close button*/
 	background: #c03310;
     border-radius: 50%;
 	color: #fff;
@@ -195,7 +195,7 @@ body {
     text-align: center;
     top: 26px;
     width: 30px;
-}*/
+}
 
 #demo-modal .close span {
 	position: relative;
