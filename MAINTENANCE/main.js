@@ -14,3 +14,11 @@ ready(() => {
 setTimeout(function() {
 	$('#demo-modal').modal();
 }, 500);
+
+//stop user from clicking off modal
+$('#myModal').modal({
+    backdrop: 'static',
+    keyboard: false
+})
+
+$('#myModal').modal({backdrop: 'static', keyboard: false}, 'show');
