@@ -16,9 +16,9 @@ setTimeout(function() {
 }, 500);
 
 //stop user from clicking off modal
-$('#myModal').modal({
+$('#demo-modal').modal({
     backdrop: 'static',
     keyboard: false
 })
 
-$('#myModal').modal({backdrop: 'static', keyboard: false}, 'show');
+$('#demo-modal').modal({backdrop: 'static', keyboard: false}, 'show');
