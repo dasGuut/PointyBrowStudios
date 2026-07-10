@@ -21,4 +21,4 @@ $('#demo-modal').modal({
     keyboard: false
 })
 
-$('#demo-modal').modal({backdrop: 'static', keyboard: false}, 'show');
+//$('#demo-modal').modal({backdrop: 'static', keyboard: false}, 'show');
