@@ -197,10 +197,10 @@ body {
     width: 30px;
 }
 
-#demo-modal .close span {
+/*#demo-modal .close span {
 	position: relative;
 	top: -3px;
-}
+}*/
 
 #demo-modal .modal-body p {
 	color: #ffd04c;
