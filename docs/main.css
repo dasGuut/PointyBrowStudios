@@ -23,7 +23,7 @@ body {
 }
 
 .nav-link:hover {
-	color: #daa520;
+	color: #e100ff;
 }
 
 .navbar-collapse {
@@ -33,7 +33,7 @@ body {
 /*--- header ---*/
 
 .header {
-	background-image: url('images/PR_Flag.jpeg');
+	/*background-image: url('images/PR_Flag.jpeg');*/
 	background-size: cover;
 	background-position: center;
 	position: relative;
