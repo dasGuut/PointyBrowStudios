@@ -79,6 +79,28 @@ body {
 	color: #000;
 }*/
 
+
+
+
+/*BANNER    */
+.banner-wrapper {
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 134vh;
+  overflow: hidden;
+}
+
+.banner {
+  background-image: url("docs/images/coqui.jpeg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 169.86vh;
+  height: 9.72vh;
+}
+
+
+
 /*--- feature section ---*/
 
 .features {
