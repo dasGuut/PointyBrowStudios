@@ -99,6 +99,11 @@ body {
   height: 9.72vh;
 }
 
+.banner-content {
+  width: 337.72vh;
+  display: flex;
+}
+
 
 
 /*--- feature section ---*/
